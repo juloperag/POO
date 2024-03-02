@@ -14,14 +14,16 @@ public class Circulo {
     //Costruccion para la clase circulo
     Circulo(int radio) {
     this.radio = radio;
-    }
-    }
-    //Aqui definimos los metodos de la clase
-    double calcularArea(){
+    }  
+    //Aqui definimos los metodos de la clase, los cuales son:
+    // Calculo del Area
+    double calcularArea()
+    {
     return Math.PI*Math.pow(radio,2);
     }
-
-    double calcularPerímetro() {
+    //Calculo del Perimetro
+    double calcularPerimetro() 
+    {
     return 2*Math.PI*radio;
     } 
 }

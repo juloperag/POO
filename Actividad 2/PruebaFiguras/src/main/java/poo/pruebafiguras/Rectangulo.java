@@ -9,5 +9,24 @@ package poo.pruebafiguras;
  * @author julil
  */
 public class Rectangulo {
-    
+    //Definimos los atributos base y altura del rectangulo
+    int base;
+    int altura;
+    //Costruccion para la clase rectangulo
+    Rectangulo(int base, int altura) 
+    {
+    this.base = base;
+    this.altura = altura;
+    }
+    //Aqui definimos los metodos de la clase, los cuales son:
+    //Calculo del Area
+    double calcularArea() 
+    {
+    return base * altura;
+    }
+    //Calculo perimetro
+    double calcularPerimetro() 
+    {
+    return (2 * base) + (2 * altura);
+    }   
 }
