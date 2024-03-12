@@ -22,18 +22,9 @@ public class Cap4_Ejercicio7 {
         A = output.nextDouble();
         System.out.println("Ingrese el valor B: ");
         B = output.nextDouble();
+        //Definimos un objeto para el par de valores
+        Par_valores par = new Par_valores(A, B);
         //Comparacion de valores
-        if(A>B)
-        {
-            System.out.println("A es mayor que B");
-        }
-        else if(A==B)
-        {
-            System.out.println("A es igual que B");            
-        }
-        else
-        {
-            System.out.println("A es menor que B");        
-        }
+        par.mayor();       
     }
 }

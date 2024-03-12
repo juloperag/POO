@@ -29,47 +29,9 @@ public class Cap4_Ejercicio24 {
         B = output.nextDouble();
         System.out.println("Ingrese el peso de la esfera C: ");
         C = output.nextDouble();
-        //Comparacion de valores
-        if(A==B)
-        {
-            if(B==C)
-            {
-                System.out.println("Las esferas son de igual peso");                
-            }
-            if(B>C)
-            {
-                System.out.println("Las esferas A y B tienen el mismo peso, ademas tienen un peso mayor a la esfera C");        
-            }
-            else
-            {
-                System.out.println("La esfera de mayor peso es C");  
-            } 
-        }          
-        else if(A>B)
-        {
-            if(A>C)
-            {
-                System.out.println("La esfera de mayor peso es A");
-            }
-            else
-            {
-                System.out.println("La esfera de mayor peso es C");                
-            }
-        }         
-        else if(B>C)
-        {
-            if(B==C)
-            {
-                System.out.println("Las esferas B y C tienen el mismo peso, ademas tienen un peso mayor a la esfera A");                  
-            }
-            else
-            {
-                System.out.println("La esfera de mayor peso es B");  
-            }     
-        }
-        else
-        {
-            System.out.println("La esfera de mayor peso es C");  
-        }       
+        //Definimos un objeto para el conjunto de esferas
+        Conjunto_Esferas esferas = new Conjunto_Esferas(A, B, C);
+        //Comparamos los pesos de las esferas 
+        esferas.peso();     
     }
 }
