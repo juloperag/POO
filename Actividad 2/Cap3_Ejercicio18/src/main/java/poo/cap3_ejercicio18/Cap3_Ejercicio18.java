@@ -17,7 +17,7 @@ public class Cap3_Ejercicio18 {
         Scanner output = new Scanner(System.in);
         
         //Definicion de variables
-        int codigo;
+        int codigo; 
         String nombre;
         double horas_trabajadas,valor_hora;
         double porcentaje_retencion;
