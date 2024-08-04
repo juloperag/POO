@@ -187,7 +187,7 @@ public class GUI extends javax.swing.JFrame {
         //Creamos el objeto
         Estudiante estudiante_1 = new Estudiante(nit,nom,pat,eSocial);
         //Mostramos el resultado por la bandeja respectiva de texto
-        String mensaje = "NIT: " + estudiante_1.ni + '\n' + "Nombre: " + estudiante_1.nombre + '\n' + "Matricula: " + estudiante_1.calcMat() + " $ \n";
+        String mensaje = "NIT: " + estudiante_1.ni + '\n' + "Nombre: " + estudiante_1.nom + '\n' + "Matricula: " + estudiante_1.calcMat() + " $ \n";
         textareaMatricula.setText(mensaje);      
     }//GEN-LAST:event_buttonCalcularActionPerformed
 
