@@ -31,6 +31,5 @@ public class Trabajo_Empleado {
         {
             double salario = salario_bruto()*(1-(porcentaje_retencion_empleado/100));           
             return salario;
-        }
-    
+        }  
 }
