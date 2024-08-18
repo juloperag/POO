@@ -23,7 +23,5 @@ public class Local extends Inmueble{
     void imprimir() {
         super.imprimir(); // Invoca al método imprimir de la clase padre
         System.out.println("Tipo de local = " + tipoLocal);
-    }
-    
-    
+    }    
 }
